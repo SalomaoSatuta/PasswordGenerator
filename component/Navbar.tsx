@@ -1,6 +1,5 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import navbarlogo from '../public/images/securepassforge.jpg'
 import {
     Navbar,
     NavItem,
