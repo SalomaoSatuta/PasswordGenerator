@@ -1,0 +1,36 @@
+
+.flexContainer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+}
+.flexItem {
+    width: 610px;
+    height: 200px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.passInput{
+    transition: .2s!important;
+    padding: 8px;
+    width:100%;
+    border-radius:20px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 45px;
+}
+
+.passInput:hover{
+    transition: .2s!important;
+    background-color: whitesmoke;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
