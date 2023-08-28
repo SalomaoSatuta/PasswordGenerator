@@ -19,9 +19,9 @@
 
 .passInput{
     transition: .2s!important;
-    padding: 8px;
+    padding: 19px;
     width:100%;
-    border-radius:20px;
+    border-radius:30px;
     border: none;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -32,6 +32,7 @@
 .passInput:hover{
     transition: .2s!important;
     background-color: whitesmoke;
+    padding: 34px;
     cursor: pointer;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -40,15 +41,16 @@
     transition: .2s!important;
     width: 100%;
     padding: 2px;
-    border-radius:20px;
+    border-radius:5px;
+    border:1px solid silver!important;
     border: none;
     outline: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     text-align: center;
     cursor: pointer;
 }
 
-.copyButton{
+/* .copyButton{
     width: 100%;
     border: none;
     border-radius: 20px;
@@ -58,4 +60,30 @@
     padding: 10px;
     color: white;
     font-weight: bold;
-}
+
+    
+} */
+
+         
+.copyButton {
+    background-image: linear-gradient(to right, #304352 0%, #d7d2cc  51%, #304352  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .copyButton:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
